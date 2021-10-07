@@ -112,9 +112,29 @@ export default {
           to: '/usuarios'
         },
         {
+          icon: '',
+          title: 'Eliminar Usuarios',
+          to: '/eliminar_usuarios'
+        },
+        {
+          icon: '',
+          title: 'Actualizar Usuarios',
+          to: '/actualizar_usuarios'
+        },
+        {
           icon: 'mdi-calendar',
           title: 'Reservas',
           to: '/reservas'
+        },
+        {
+          icon: '',
+          title: 'Eliminar Reservas',
+          to: '/eliminar_reservas'
+        },
+        {
+          icon: '',
+          title: 'Actualizar Reservas',
+          to: '/actualizar_reservas'
         },
         {
           icon: 'mdi-cog',
@@ -122,9 +142,29 @@ export default {
           to: '/proyectos'
         },
         {
+          icon: '',
+          title: 'Eliminar Proyectos',
+          to: '/eliminar_proyectos'
+        },
+        {
+          icon: '',
+          title: 'Actualizar Proyectos',
+          to: '/actualizar_proyectos'
+        },
+        {
           icon: 'mdi-label-multiple',
           title: 'Categorias',
           to: '/categorias'
+        },
+        {
+          icon: '',
+          title: 'Eliminar Categorias',
+          to: '/eliminar_categorias'
+        },
+        {
+          icon: '',
+          title: 'Actualizar Categorias',
+          to: '/actualizar_categorias'
         },
         
       ],
