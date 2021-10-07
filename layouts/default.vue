@@ -99,7 +99,7 @@ export default {
         {
           icon: 'mdi-earth',
           title: 'Bienvenido a Júpiter',
-          to: '/assets/logo.png'
+          to: '/'
         },
         {
           icon: 'mdi-account-circle',
