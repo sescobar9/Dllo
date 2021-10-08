@@ -10,15 +10,16 @@
             id="id"
             ></v-text-field>
         </v-form>
-        <v-row>
-            <v-col sm="12" md="6">
-            <v-text-field
-            name = "Sala"
-            label= "Sala"
-            id= "sala"
-            ></v-text-field>
-            </v-col>
-        </v-row>
+        <br/>
+            
+            <v-select
+            :items="salas"
+            label= "salas disponibles"
+            item-text= "salas"
+            item-value= "id"
+            ></v-select>
+            
+        <br/>
         <br/>
             <v-select
             :items="horas"
@@ -51,7 +52,14 @@ export default {
                 {id:3, horas:"10:00-12:00"},
                 {id:4, horas:"12:00-14:00"},
                 {id:5, horas:"14:00-16:00"},
-            ]
+            ],
+            salas:[
+                {id:1, salas:"sala1"},
+                {id:2, salas:"sala2"},
+                {id:3, salas:"sala3"},
+                {id:4, salas:"sala4"},
+            ]  
+            
         }
     },
 }
